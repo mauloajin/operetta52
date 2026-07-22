@@ -10,6 +10,7 @@ export const metadata = {
   alternates: { canonical: '/' },
   openGraph: { title: name, description, url: '/', siteName: name, locale: 'ja_JP', type: 'website' },
   robots: { index: true, follow: true },
+  verification: { google: 'ayHXvvh7MAYyEd0yabm5xYrI98qeN_1bfcLkvUPkbrM' },
 };
 
 export default function RootLayout({ children }) {
